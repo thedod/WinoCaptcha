@@ -1,3 +1,13 @@
+### Warning!
+
+If you use the `winograd.txt` that comes with this project, it's trivial to solve the captcha automatically.
+
+Thanks to *whoever you are* for pointing this out to me (because I *did* use that file, and that was mighty stupid).
+
+If you want to use this, please take into account that you need to create your own `winograd.txt`. I haven't tried yet (I'm using what I've forked from @yerich), but something tell me it could be quite a hassle. Maybe some other time :)
+
+--------------------
+
 ### WinoCaptcha
 
 A Captcha Alternative, based on [Winograd Schemas](http://www.cs.toronto.edu/~hector/Papers/winograd.pdf). `python winograd.py` for a demo.
